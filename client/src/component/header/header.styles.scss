@@ -1,0 +1,41 @@
+.nav-menu {
+    height: 3rem;
+    font-size: 18px;
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      
+      font-family: 'Mulish', sans-serif !important;
+      &:focus, &:hover, &:visited {
+        color: rgb(236, 128, 34);
+      }
+    }
+  
+    .logo img{
+     width: 4.5rem;
+     height: 3.5rem;
+     border-radius: 5px;
+     transition-duration: 0.4s;
+     margin-top: -6px;
+     &:hover {
+      transform: scale(1.5);
+     }
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      margin-left: auto;
+      line-height: 3rem;
+  
+      li {
+        display: inline-block;
+        margin: 0 1rem;
+        cursor: pointer;
+      }
+    }
+  }
